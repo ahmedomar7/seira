@@ -45,24 +45,8 @@ body {
 }
 
 .bodyColorMain1{
-    background: linear-gradient(215deg, #90833c, #d2c893);
-    background-size: 400% 400%;
-    
-    @-webkit-keyframes AnimationName {
-        0%{background-position:88% 0%}
-        50%{background-position:13% 100%}
-        100%{background-position:88% 0%}
-    }
-    @-moz-keyframes AnimationName {
-        0%{background-position:88% 0%}
-        50%{background-position:13% 100%}
-        100%{background-position:88% 0%}
-    }
-    @keyframes AnimationName {
-        0%{background-position:88% 0%}
-        50%{background-position:13% 100%}
-        100%{background-position:88% 0%}
-    }
+    background-color: #b1a24a;
+   
 }
 .bodyColorMain{
   background-color: $mainColor;
