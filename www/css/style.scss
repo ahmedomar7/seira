@@ -45,7 +45,7 @@ body {
 }
 
 .bodyColorMain1{
-    background-color: #b1a24a;
+    background-color:$lightBackground;
    
 }
 .bodyColorMain{
@@ -106,7 +106,7 @@ a {
   width: 100%
 }
 .barnd-name {
-    color: $whiteColor;
+    color: #7c1d4b;
     margin-top: 15px;
     font-family: FFHekaya;
     font-size: 45px;
@@ -114,7 +114,7 @@ a {
 }
 
 .barnd-name2 {
-    color: $whiteColor;
+    color: #7c1d4b;
     font-family: swissraNor;
     font-size: 16px;
     margin-top: -20px;
