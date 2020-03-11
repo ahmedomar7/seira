@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id=" com.prophet.bio" version="1.0.0" android-versionCode="30909" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>السيرة النبوية</name>
+    <description>
+       السيرة النبوية من كتاب السيرة النبوية قصص وعبر للدكتور على الصلابى
+    </description>
+    <author email="crevedweb@gmail.com" href="http://creved.com">
+       Creved Studio
+    </author>
+    <content src="index.html" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-targetSdkVersion" value="28"/>
+	<plugin name="cordova-plugin-statusbar" spec="~2.4.2" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#663f73" />
+  <platform name="android">
+    <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
+        <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
+        <icon density="hdpi" src="www/res/icon/android/drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="www/res/icon/android/drawable-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="www/res/icon/android/drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="www/res/icon/android/drawable-xxxhdpi-icon.png" />
+  </platform>
+</widget>
