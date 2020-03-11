@@ -10,7 +10,7 @@ function morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassNa
         var animateVar = document.querySelector(zakrId).classList;
 
         var white = "#fff";
-        var dark = "#2691d9";
+        var dark = "#4374b7";
         var black = "#000000";
 
         if (counter == 0) {
@@ -61,7 +61,7 @@ function evening(zaker, thawab, zakrId, countId, counter, counter2, frameClassNa
         var animateVar = document.querySelector(zakrId).classList;
 
         var white = "#f5f5f5";
-        var dark = "#a67126";
+        var dark = "#a29444";
         var black = "#000000";
 
         if (counter == 0) {

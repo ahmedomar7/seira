@@ -26,10 +26,12 @@ $lightBackground: Background Color of Seira - companios - Morning Azkar . **/
 $mainColor: #7c1d4b;
 $lightBackground: #e6e6e6;
 
-$marningBtn:#2691d9;/*-2691d9*/
-$eveningBtn:#a67126;
+$marningBtn:#4374b7;
+$eveningBtn:#a29444;
 
-$progressbar:#4374b7;/*-7b868a*/
+$zakrBtn:#835194;
+
+$progressbar:#4374b7;
 
 $whiteColor: #ffffff;
 $blackColor: #000000;
@@ -119,7 +121,7 @@ a {
 .barnd-slogan {
     color: $mainColor;
     font-family: swissraNor;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: -10px;
     user-select: none;
     text-shadow:  $whiteColor 1px 1px;
@@ -350,7 +352,7 @@ a {
 
 /*Thwab page ***************** */
 
-.enoughTimeMorning {
+.enoughTime {
     color: $blackColor;
     font-family: questv1;
     font-size: 14px;
@@ -358,13 +360,6 @@ a {
     text-align: left;
 }
 
-.enoughTimeEvening {
-  color: $whiteColor;
-  font-family: questv1;
-  font-size: 14px;
-  padding-top: 10px;
-  text-align: left;
-}
 
 .mainZaker {
     padding-right: 7px;
@@ -404,7 +399,7 @@ a {
     @extend .frameMain;
     position: relative;
     padding: 7px 7px 15px 7px;
-    box-shadow: #492d52 1px 1px;
+   
     background-color: #f5f5f5;
 }
 
@@ -415,7 +410,7 @@ a {
 
 .sahabiyat {
     text-align: center;
-    color: $whiteColor;
+    color: $blackColor;
 }
 
 .companions {
@@ -459,7 +454,7 @@ a {
 /* dua page  ******************************** */
 
 .accordion {
-    background-color: $mainColor;
+    background-color: $eveningBtn;
     color: $whiteColor;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -475,7 +470,7 @@ a {
 
 .accordionActive {
     opacity: .8;
-    background-color: $mainColor;
+    background-color: $eveningBtn;
 }
 
 .panel {
@@ -495,7 +490,7 @@ button:focus {outline:0;}
 
 
 .bntZakr{
-  background-color: $mainColor;
+  background-color: $zakrBtn;
   color: $whiteColor;
   font-family: questv1;
   border-radius: 3px;
@@ -505,7 +500,7 @@ button:focus {outline:0;}
 }
 
 .bntZakr2{
-  background-color: $mainColor;
+  background-color: $zakrBtn;
   color: $whiteColor;
   font-family: questv1;
   border-radius: 3px;
