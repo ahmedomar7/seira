@@ -13,7 +13,7 @@
 	<plugin name="cordova-plugin-statusbar" spec="~2.4.2" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="StatusBarOverlaysWebView" value="true" />
-    <preference name="StatusBarBackgroundColor" value="#663f73" />
+    <preference name="StatusBarBackgroundColor" value="#b62b6e" />
   <platform name="android">
     <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
