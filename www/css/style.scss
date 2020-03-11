@@ -44,28 +44,28 @@ body {
     font-size: 16px;
 }
 
-.bodyColorMain{
- 
-    background: linear-gradient(226deg, #663f73, #c8add2);
+.bodyColorMain1{
+    background: linear-gradient(264deg, #b1a24a, #cabf81);
     background-size: 400% 400%;
     
- 
-    
     @-webkit-keyframes AnimationName {
-        0%{background-position:0% 51%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 51%}
+        0%{background-position:1% 0%}
+        50%{background-position:99% 100%}
+        100%{background-position:1% 0%}
     }
     @-moz-keyframes AnimationName {
-        0%{background-position:0% 51%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 51%}
+        0%{background-position:1% 0%}
+        50%{background-position:99% 100%}
+        100%{background-position:1% 0%}
     }
     @keyframes AnimationName {
-        0%{background-position:0% 51%}
-        50%{background-position:100% 50%}
-        100%{background-position:0% 51%}
+        0%{background-position:1% 0%}
+        50%{background-position:99% 100%}
+        100%{background-position:1% 0%}
     }
+}
+.bodyColorMain{
+  background-color: $mainColor;
 }
 
 a:hover,
@@ -154,32 +154,7 @@ a {
 }
 
 .sectionIndex {
-   
-
-    background: linear-gradient(58deg, #ffffff, #d7d7d7);
-background-size: 400% 400%;
-
--webkit-animation: AnimationName 34s ease infinite;
--moz-animation: AnimationName 34s ease infinite;
-animation: AnimationName 34s ease infinite;
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
-}
-
-
+    background-color: $whiteColor;
     position: relative;
     width: 93%;
     border-radius: 5px;
