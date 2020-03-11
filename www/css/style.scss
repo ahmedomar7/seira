@@ -45,23 +45,23 @@ body {
 }
 
 .bodyColorMain1{
-    background: linear-gradient(264deg, #b1a24a, #cabf81);
+    background: linear-gradient(219deg, #90833c, #c3b66f);
     background-size: 400% 400%;
-    
+ 
     @-webkit-keyframes AnimationName {
-        0%{background-position:1% 0%}
-        50%{background-position:99% 100%}
-        100%{background-position:1% 0%}
+        0%{background-position:0% 91%}
+        50%{background-position:100% 10%}
+        100%{background-position:0% 91%}
     }
     @-moz-keyframes AnimationName {
-        0%{background-position:1% 0%}
-        50%{background-position:99% 100%}
-        100%{background-position:1% 0%}
+        0%{background-position:0% 91%}
+        50%{background-position:100% 10%}
+        100%{background-position:0% 91%}
     }
     @keyframes AnimationName {
-        0%{background-position:1% 0%}
-        50%{background-position:99% 100%}
-        100%{background-position:1% 0%}
+        0%{background-position:0% 91%}
+        50%{background-position:100% 10%}
+        100%{background-position:0% 91%}
     }
 }
 .bodyColorMain{
