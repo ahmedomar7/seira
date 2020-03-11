@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>الأذكار بعد الصلاة</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/okayNav.css">
+    <link rel="stylesheet" href="../css/allFontawesome.min.css">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/okayNav.js"></script>
+    <script src="../js/allFontawesome.min.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+
+<body class="bodyColorMain">
+
+    <nav class="okayNav">
+        <i class="fas fa-arrow-left fa-lg nav-arrow" onclick="goBack()"></i>
+        <span class="nav-title">الأذكار بعد الصلاة</span>
+    </nav>
+
+    <div style="display: none;" class="header-bar">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
+    <br />
+    
+    <main class="mainContents">
+        <section class="sectionContents">
+
+            <div class="frame-zaker" id="frame-zaker">
+                <p id="zakr">
+                    <span>
+                        <p>أسـتَغفِرُ الله  أسـتَغفِرُ الله  أسـتَغفِرُ الله</p>
+                        <p>اللهُـم أنـتَ السلامُ ومـنكَ السلام، تبارَكتَ يا ذا الجَـلالِ وَالإِكْـرام، اللهُـم لا مانِعَ لِما أعطَـيت، ولا مُعطِـيَ لِما مَنَـعت، ولا يَنفَـع ذا الجَـدِ منـك الجَـد</p>
+                        <p>" اللَّه لَا إلَٰهَ إلا هوَ الحَي القَيوم لَا تَأخذهُ سِنَة وَلَا نَوم لهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأرضِ مَن ذَا الذِي يَشفَعُ عِندَهُ إِلا بإِذنِهِ يَعلَمُ مَا بينَ أيدِيهِمْ ومَا خَلفَهُم ولَا يحِيطُونَ بِشَيءٍ مّن عِلمِهِ إِلا بِمَا شَاءَ وَسِعَ كُرسِيّهُ السَّمَاوَاتِ وَالأَرضَ وَلَا يئُودُهُ حِفظهُمَا وهُو العَلِيّ العَظِيمُ "</p>
+                        <p>سُـبْحانَ اللهِ - الحَمْـدُ لله - اللهُ أكْـبَر &nbsp;٣٣</p>
+                        <p>لا إلهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير</p>
+                        <p>اللهُـم أعنِي على ذِكرِكَ وشُكرِك وحُسنِ عِبادتِكَ</p>
+                    </span>
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- End -------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frame-zaker" id="frame-zaker1">
+                <p>بعد صَلاةِ الفَجْر</p>
+                <p id="zakr1"></p>
+                <button type="button" class="bntZakr" id="bnt1">
+                    <span id="repeat1">الثواب</span>
+                    <span id="count1" hidden></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+    
+    <script>
+        var arg1 = 'لا إله إلا الله وحده لا شريك له له الملك وله الحمد يحيي ويميت وهو على كل شيء قدير ..  10 مرات  '; // name of zaker
+        var arg2 = 'عن أبي ذر رضي الله عنه  أن رسول الله صلى الله عليه وسلم قال: من قال في دبر صلاة الفجر وهو ثان رجليه قبل أن يتكلم لا إله إلا الله وحده لا شريك له له الملك وله الحمد يحيي ويميت وهو على كل شيء قدير عشر مرات كتب الله له عشر حسنات، ومحا عنه عشر سيئات، ورفع له عشر درجات، وكان يومه ذلك كله في حرز من كل مكروه، وحرس من الشيطان، ولم ينبغ لذنب أن يدركه في ذلك اليوم إلا الشرك بالله تعالى. رواه الترمذي'; // Thawab
+        var arg3 = '#zakr1'; //zakrID
+        var arg4 = '#count1'; //countID
+        var arg5 = 1; //counter
+        var arg6 = 1; //counter again
+        var arg7 = '#frame-zaker1'; //frameClassName
+        var arg8 = '#repeat1'; //repeat
+        var arg9 = '#bnt1'; // bnt - bottom
+
+        init_zakr(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9);
+    </script>
+    <!-- End -------------------------------------------------  -->
+
+    <br />
+
+</body>
+</html>

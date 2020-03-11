@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>أذكار الصباح</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/okayNav.css">
+    <link rel="stylesheet" href="../css/allFontawesome.min.css">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/okayNav.js"></script>
+    <script src="../js/allFontawesome.min.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+
+    <nav class="okayNav">
+        <i class="fas fa-arrow-left fa-lg nav-arrow" onclick="goBack()"></i>
+        <span class="nav-title">أذكار الصباح</span>
+    </nav>
+
+    <div class="header-bar">
+        <div class="progress-container">
+            <div class="progress-barMorning" id="myBar"></div>
+        </div>
+    </div>
+
+    <main class="mainContents">
+        <p class="enoughTimeMorning">المدة : 8 - 10 دقيقة</p>
+    </main>
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker30">
+                <p id="zakr30"></p>
+                <button type="button" class="bntMorning" id="bnt30">
+                    <span id="repeat30">تكرار : </span>
+                    <span id="count30"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'بِسمِ اللَّهِ الرحمَنِ الرحِيم ، الحَمدُ للَّهِ رَبِّ العالمِينَ ، الرحمَنِ الرحِيمِ ، مَالِكِ يومِ الدينِ ، إياكَ نَعْبُدُ وإياكَ نَستَعِينُ ، اهدِنا الصرَاطَ المُستقيمَ ، صِرَاطَ الذِينَ أنعَمتَ عَلَيهِم غَيرِ المَغضُوبِ عَليهِم ولاَ الضالِّينَ';
+        var thawab = 'عن ابن عباس رضى الله عنه قال: بينما جبريل  قاعدا عند النبي صلى الله عليه وسلم سمع نقيضا من فوقه فرفع رأسه فقال : هذا باب من السماء فتح اليوم لم يفتح قط إلا اليوم، فنزل منه ملك فقال: هذا ملك نزل إلى الأرض لم ينزل قط إلا اليوم فسلم فقال: أبشر بنورين أوتيتهما لم يؤتهما نبي قبلك فاتحة الكتاب وخواتيم سورة البقرة لن تقرأ بحرف منهما إلا أعطيته - رواه مسلم';
+        var zakrId = '#zakr30';
+        var countId = '#count30';
+        var counter = 1; //counter
+        var counter2 = 1; //counter again
+        var frameClassName = '#frame-zaker30';
+        var repeatId = '#repeat30';
+        var bnt = '#bnt30';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+
+    <!-- End --------------------------------------------------------  -->
+    
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker2">
+                <p id="zakr2"></p>
+                <button type="button" class="bntMorning" id="bnt2">
+                    <span id="repeat2">تكرار : </span>
+                    <span id="count2"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'أعُوذُ باللهِ مِن الشيطانِ الرجِيمِ <br />اللَّه لَا إلَٰهَ إلا هوَ الحَي القَيوم لَا تَأخذهُ سِنَة وَلَا نَوم لهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأرضِ مَن ذَا الذِي يَشفَعُ عِندَهُ إِلا بإِذنِهِ يَعلَمُ مَا بينَ أيدِيهِمْ ومَا خَلفَهُم ولَا يحِيطُونَ بِشَيءٍ مّن عِلمِهِ إِلا بِمَا شَاءَ وَسِعَ كُرسِيّهُ السَّمَاوَاتِ وَالأَرضَ وَلَا يئُودُهُ حِفظهُمَا وهُو العَلِيّ العَظِيمُ';
+        var thawab = 'من قالها حين يصبح أجير من الجن حتى يمسى<br />';
+        var zakrId = '#zakr2';
+        var countId = '#count2';
+        var counter = 1; //counter
+        var counter2 = 1; //counter again
+        var frameClassName = '#frame-zaker2';
+        var repeatId = '#repeat2';
+        var bnt = '#bnt2';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker3">
+                <p id="zakr3"></p>
+                <button type="button" class="bntMorning" id="bnt3">
+                    <span id="repeat3">تكرار : </span>
+                    <span id="count3"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'بِسمِ اللهِ الرحمنِ الرحِيم<br />قُل هُو اللَّه أحَد ، اللَّه الصمَد لم يَلِد ، وَلَم يُولَد ، وَلَم يَكُن لَّهُۥ كُفُوًا أحَد ';
+        var thawab = 'من قالها حين يصبح وحين يمسى كفته من كل شىء';
+        var zakrId = '#zakr3';
+        var countId = '#count3';
+        var counter = 3; //counter
+        var counter2 = 3; //counter again
+        var frameClassName = '#frame-zaker3';
+        var repeatId = '#repeat3';
+        var bnt = '#bnt3';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker4">
+                <p id="zakr4"></p>
+                <button type="button" class="bntMorning" id="bnt4">
+                    <span id="repeat4">تكرار : </span>
+                    <span id="count4"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'بِسمِ اللهِ الرحمنِ الرحِيم<br />قُل أعُوذُ بِرَب الفَلَقِ ، مِن شَر مَا خلقَ ، ومِن شرِّ غاسقٍ إذَا وقبَ ، ومِن شرِّ النَّفَّٰثَٰتِ فى العُقَدِ ، ومن شَرِّ حَاسدٍ إذا حسَدَ';
+        var thawab = 'من قالها حين يصبح وحين يمسى كفته من كل شىء';
+        var zakrId = '#zakr4';
+        var countId = '#count4';
+        var counter = 3; //counter
+        var counter2 = 3; //counter again
+        var frameClassName = '#frame-zaker4';
+        var repeatId = '#repeat4';
+        var bnt = '#bnt4';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker5">
+                <p id="zakr5"></p>
+                <button type="button" class="bntMorning" id="bnt5">
+                    <span id="repeat5">تكرار : </span>
+                    <span id="count5"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'بِسمِ اللهِ الرحمنِ الرحِيم<br />قُل أعُوذُ برَبِّ النَّاسِ ، مَلِكِ الناسِ ، إِلَٰهِ الناسِ ، مِن شَرِّ الْوَسوَاسِ الخَناسِ ، الذِى يُوَسوِسُ فِى صُدُورِ الناسِ ، مِنَ الجِنَّةِ وَالناسِ';
+        var thawab = 'من قالها حين يصبح وحين يمسى كفته من كل شىء';
+        var zakrId = '#zakr5';
+        var countId = '#count5';
+        var counter = 3; //counter
+        var counter2 = 3; //counter again
+        var frameClassName = '#frame-zaker5';
+        var repeatId = '#repeat5';
+        var bnt = '#bnt5';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    
+    
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker6">
+                <p id="zakr6"></p>
+                <button type="button" class="bntMorning" id="bnt6">
+                    <span id="repeat6">تكرار : </span>
+                    <span id="count6"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'أصـبَحنا وأصـبحَ المـلكُ لله والحَمدُ لله، لا إلهَ إلاّ اللّه وحدَهُ لا شريكَ لهُ، لهُ المُـلكُ ولهُ الحَمـد، وهوَ على كل شَيءٍ قدير';
+        var thawab = 'من دعاء الصباح';
+        var zakrId = '#zakr6';
+        var countId = '#count6';
+        var counter = 1; //counter
+        var counter2 = 1; //counter again
+        var frameClassName = '#frame-zaker6';
+        var repeatId = '#repeat6';
+        var bnt = '#bnt6';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker7">
+                <p id="zakr7"></p>
+                <button type="button" class="bntMorning" id="bnt7">
+                    <span id="repeat7">تكرار : </span>
+                    <span id="count7"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'اللهُـم إِنِـي أَصبَـحتُ أُشـهدك وأُشـهدُ حملـةَ عـرشِـك وملائكتكَ وجَمـيعَ خَلـقِك أنـكَ أنـتَ الله لا إلهَ إلا أنـتَ وَحـدَك لا شريكَ لَـك، وأَن مُحَمـداً عَبـدُك ورسـولُـك';
+        var thawab = 'من قالها أعتقه الله من النار';
+        var zakrId = '#zakr7';
+        var countId = '#count7';
+        var counter = 4; //counter
+        var counter2 = 4; //counter again
+        var frameClassName = '#frame-zaker7';
+        var repeatId = '#repeat7';
+        var bnt = '#bnt7';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker8">
+                <p id="zakr8"></p>
+                <button type="button" class="bntMorning" id="bnt8">
+                    <span id="repeat8">تكرار : </span>
+                    <span id="count8"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'اللهـم ما أَصْبَـَحَ بي مِـن نِعـمَةٍ أو بأحَـدٍ مِـن خَلـقِك فَمِـنكَ وَحـدَكَ لا شريكَ لَـك فلـكَ الحمـدُ ولـكَ الشُّكـر';
+        var thawab = 'من قالها حين يصبح أدى شكر يومه';
+        var zakrId = '#zakr8';
+        var countId = '#count8';
+        var counter = 1; //counter
+        var counter2 = 1; //counter again
+        var frameClassName = '#frame-zaker8';
+        var repeatId = '#repeat8';
+        var bnt = '#bnt8';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    
+    
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker11">
+                <p id="zakr11"></p>
+                <button type="button" class="bntMorning" id="bnt11">
+                    <span id="repeat11">تكرار : </span>
+                    <span id="count11"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'رَضيـتُ بالله ربـاً وبالإسلامِ ديـناً وبِمحَـمدٍ صلِّ الله عليه وسلم نَبِيـاً';
+        var thawab = 'من قالها حين يصبح وحين يمسى كان حقا على الله أن يرضيه يوم القيامة';
+        var zakrId = '#zakr11';
+        var countId = '#count11';
+        var counter = 3; //counter
+        var counter2 = 3; //counter again
+        var frameClassName = '#frame-zaker11';
+        var repeatId = '#repeat11';
+        var bnt = '#bnt11';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker12">
+                <p id="zakr12"></p>
+                <button type="button" class="bntMorning" id="bnt12">
+                    <span id="repeat12">تكرار : </span>
+                    <span id="count12"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'اللّهـم أنتَ رَبِـي لا إلهَ إلا أنتَ، خَلقتنـي وأنا عَبـدُك، وأنا علـى عَهـدِكَ وَوعـدِك ما استـطعـت، أعـوذُ بِكَ مِن شـرِ ما صَنـعت، أبـوءُ لـكَ بِنِعـمَتِـكَ علـيَّ وأبـوءُ بِذنـبي فاغفـِر لي فإِنـهُ لا يَغـفِرُ الذنـوبَ إِلا أنتَ';
+        var thawab = 'من قَالهَا منَ النهَارِ مُوقِنا بِهَا فمَات مِن يَومِهِ قَبلَ أن يُمسِيَ فهُوَ مِن أهلِ الجنَّةِ';
+        var zakrId = '#zakr12';
+        var countId = '#count12';
+        var counter = 1; //counter
+        var counter2 = 1; //counter again
+        var frameClassName = '#frame-zaker12';
+        var repeatId = '#repeat12';
+        var bnt = '#bnt12';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker13">
+                <p id="zakr13"></p>
+                <button type="button" class="bntMorning" id="bnt13">
+                    <span id="repeat13">تكرار : </span>
+                    <span id="count13"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'حَسبِـيَ اللّه لا إلهَ إلا هُوَ عَلـيهِ تَوَكـلتُ وهُوَ رَبُّ العَرشِ العَظـيم';
+        var thawab = 'من قالها كفاه الله ما أهمه من أمر الدنيا والأخرة';
+        var zakrId = '#zakr13';
+        var countId = '#count13';
+        var counter = 7; //counter
+        var counter2 = 7; //counter again
+        var frameClassName = '#frame-zaker13';
+        var repeatId = '#repeat13';
+        var bnt = '#bnt13';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    
+    
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker14">
+                <p id="zakr14"></p>
+                <button type="button" class="bntMorning" id="bnt14">
+                    <span id="repeat14">تكرار : </span>
+                    <span id="count14"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'سُبحـانَ الله وبِحمْـدِه عددَ خَلـقِه ورضـا نَفسِـه وزِنَـة عَـرشِـه ومِـدادَ كَلِمـاتـه';
+        var thawab = 'وَسَبِحْ بِحَمدِ رَبِكَ قَبلَ طلوعِ الشمسِ وَقَبلَ الغُرُوبِ';
+        var zakrId = '#zakr14';
+        var countId = '#count14';
+        var counter = 3; //counter
+        var counter2 = 3; //counter again
+        var frameClassName = '#frame-zaker14';
+        var repeatId = '#repeat14';
+        var bnt = '#bnt14';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker15">
+                <p id="zakr15"></p>
+                <button type="button" class="bntMorning" id="bnt15">
+                    <span id="repeat15">تكرار : </span>
+                    <span id="count15"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'أستَغفِر الله العَظِيمَ الذِي لاَ إلهَ إلا هوَ الحَي القيوم وأتُوبُ إليهِ';
+        var thawab = 'من لزم الاستغفار جعل الله له من كل هم فرجاً، ومن كل ضيق مخرجاً، ورزقه من حيث لا يحتسب';
+        var zakrId = '#zakr15';
+        var countId = '#count15';
+        var counter = 3; //counter
+        var counter2 = 3; //counter again
+        var frameClassName = '#frame-zaker15';
+        var repeatId = '#repeat15';
+        var bnt = '#bnt15';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker16">
+                <p id="zakr16"></p>
+                <button type="button" class="bntMorning" id="bnt16">
+                    <span id="repeat16">تكرار : </span>
+                    <span id="count16"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'يا ربِّ لكَ الحمدُ كمَا ينبغِي لِجلَالِ وجهِكَ، ولِعَظِيمِ سُلطانكَ';
+        var thawab = 'حديث قدسي - عن عبد اللَّه بن عُمَر أن رسُولَ اللَّه صلى اللَّه عَلَيهِ وسلمَ حدثهم: أَن عبدًا مِن عِبَادِ اللَّهِ قَالَ: يا ربِّ لكَ الحمدُ كمَا ينبغِي لجلَالِ وجهِكَ، ولِعَظِيمِ سُلطانكَ .. فَعَضلَت بِالملَكَينِ فلم يدرِيَا كيف يَكتُبانِهَا فَصعِدَا إِلَى السَّمَاءِ وَقَالَا: يَا رَبنَا إِن عبدَكَ قَد قال مقالةً لَا نَدرِي كيفَ نكْتُبُها  قَالَ اللَّه عَزَّ وجَلَّ: وَهو أعلم بِما قَال عبدُهُ ماذا قَال: عَبدِي ؟ قَالَا: يَا رَبِّ إِنهُ قَال: يا ربِّ لكَ الحمدُ كمَا ينبغِي لجلَالِ وجهِكَ، ولِعَظِيمِ سُلطانكَ فقالَ اللَّه عزَّ وجَلَّ لهُما : اكتُباها كما قالَ عبدِي حَتى يلقَانِي فأجزيَهُ بِهَ';
+        var zakrId = '#zakr16';
+        var countId = '#count16';
+        var counter = 3; //counter
+        var counter2 = 3; //counter again
+        var frameClassName = '#frame-zaker16';
+        var repeatId = '#repeat16';
+        var bnt = '#bnt16';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    
+    
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker17">
+                <p id="zakr17"></p>
+                <button type="button" class="bntMorning" id="bnt17">
+                    <span id="repeat17">تكرار : </span>
+                    <span id="count17"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'اللهُـم عافِـني في بَدَنـي، اللهُـم عافِـني في سَمْـعي، اللهُـم عافِـني في بَصَـري، لا إلهَ إلا أنـتَ';
+        var thawab = 'دعاء طلب العافية';
+        var zakrId = '#zakr17';
+        var countId = '#count17';
+        var counter = 3; //counter
+        var counter2 = 3; //counter again
+        var frameClassName = '#frame-zaker17';
+        var repeatId = '#repeat17';
+        var bnt = '#bnt17';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker18">
+                <p id="zakr18"></p>
+                <button type="button" class="bntMorning" id="bnt18">
+                    <span id="repeat18">تكرار : </span>
+                    <span id="count18"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'اللهُـم إِنِـي أسـألـكَ العـفوَ والعـافِـيةَ في الدنـيا وَالآخِـرَة، اللهُـم إِنِّـي أسـألـكَ العَـفوَ وَالعـافِـيةَ في ديني ودنـيايَ وأهـلي ومالـي، اللهُـم استُـر عـوراتي وآمِـن رَوعاتـي، اللهُـم احفَظـني من بـينِ يَدي ومِن خلفـي وعن يمـيني وعن شِمـالي ومن فوقـي، وأعـوذُ بِعَظَمَـتِكَ أن أُغـتالَ من تَحتـي';
+        var thawab = 'عن ابن عمر رضي الله عنه انه قال: لَم يَكُن رَسُولُ اللَّهِ صلى الله عليه وسلم يدع هؤلاء الكلمات إذا أصبح وَإذا أَمْسَى';
+        var zakrId = '#zakr18';
+        var countId = '#count18';
+        var counter = 1; //counter
+        var counter2 = 1; //counter again
+        var frameClassName = '#frame-zaker18';
+        var repeatId = '#repeat18';
+        var bnt = '#bnt18';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker19">
+                <p id="zakr19"></p>
+                <button type="button" class="bntMorning" id="bnt19">
+                    <span id="repeat19">تكرار : </span>
+                    <span id="count19"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'يا حَي يَا قيُومُ بِرَحمَتِكَ أستغِيثُ أصلِح لِي شأنِي كلهُ ولاَ تَكِلنِي إلَى نفسِي طـرفةَ عَينٍ';
+        var thawab = 'دعاء طلب الاستغاثة بالله';
+        var zakrId = '#zakr19';
+        var countId = '#count19';
+        var counter = 3; //counter
+        var counter2 = 3; //counter again
+        var frameClassName = '#frame-zaker19';
+        var repeatId = '#repeat19';
+        var bnt = '#bnt19';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    
+    
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker20">
+                <p id="zakr20"></p>
+                <button type="button" class="bntMorning" id="bnt20">
+                    <span id="repeat20">تكرار : </span>
+                    <span id="count20"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'اللهُـم عالِـمَ الغَـيبِ وَالشـهادةِ فاطِـرَ السّماواتِ وَالأرْضِ رَبَّ كـلِ شَـيءٍ وَمَليـكَه، أَشهَـدُ أن لا إِلـهَ إِلا أنت، أعـوذُ بِك مِن شـرِّ نفسـي وَمِن شَـرِّ الشيـطانِ وَشِركهِ، وَأن أَقتَـرِفَ عَلـى نَفْسـي سوءاً أو أجُـرَّهُ إِلـى مسـلِم';
+        var thawab = 'من قالها كفاه الله من شر نفسه و أجاره الله من كيد الشيطان وعاش بخير ومات بخير';
+        var zakrId = '#zakr20';
+        var countId = '#count20';
+        var counter = 1; //counter
+        var counter2 = 1; //counter again
+        var frameClassName = '#frame-zaker20';
+        var repeatId = '#repeat20';
+        var bnt = '#bnt20';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker21">
+                <p id="zakr21"></p>
+                <button type="button" class="bntMorning" id="bnt21">
+                    <span id="repeat21">تكرار : </span>
+                    <span id="count21"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'بِسـمِ الله الذي لا يضُـر مع اسمِـه شَيء في الأرضِ وَلا في السمـاءِ وهـوَ السّمـيعُ العَلـيم';
+        var thawab = 'لم يضره من الله شيء';
+        var zakrId = '#zakr21';
+        var countId = '#count21';
+        var counter = 3; //counter
+        var counter2 = 3; //counter again
+        var frameClassName = '#frame-zaker21';
+        var repeatId = '#repeat21';
+        var bnt = '#bnt21';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker22">
+                <p id="zakr22"></p>
+                <button type="button" class="bntMorning" id="bnt22">
+                    <span id="repeat22">تكرار : </span>
+                    <span id="count22"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'أعـوذُ بكلِمـاتِ اللّه التـامـاتِ مِن شَـرِ ما خَلـق';
+        var thawab = 'يقي الله بها العبد من الشر';
+        var zakrId = '#zakr22';
+        var countId = '#count22';
+        var counter = 3; //counter
+        var counter2 = 3; //counter again
+        var frameClassName = '#frame-zaker22';
+        var repeatId = '#repeat22';
+        var bnt = '#bnt22';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker23">
+                <p id="zakr23"></p>
+                <button type="button" class="bntMorning" id="bnt23">
+                    <span id="repeat23">تكرار : </span>
+                    <span id="count23"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'اللهُـم إِنَّا نعُوذُ بكَ مِن أن نُشرك بكَ شيئًا نعلمُهُ، ونستغفِرُك لمَا لَا نعْلَمهُ';
+        var thawab = 'يقال إذا خاف العبد على نفسه شيئا من الرياء، أو أراد أن يتقي أبواب الشرك كبيرها وصغيرها';
+        var zakrId = '#zakr23';
+        var countId = '#count23';
+        var counter = 3; //counter
+        var counter2 = 3; //counter again
+        var frameClassName = '#frame-zaker23';
+        var repeatId = '#repeat23';
+        var bnt = '#bnt23';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    
+    
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker24">
+                <p id="zakr24"></p>
+                <button type="button" class="bntMorning" id="bnt24">
+                    <span id="repeat24">تكرار : </span>
+                    <span id="count24"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'اللهُـم إني أعُوذُ بك مِن الهم والحزَنِ، وأعُوذُ بك من العَجزِ والكَسَلِ، وأعُوذُ بك من الجُبن والبُخل، وأعُوذُ بِكَ مِن غلبَةِ الدينِ وقَهر الرجالِ';
+        var thawab = 'قضى همك ودَيْنَكَ';
+        var zakrId = '#zakr24';
+        var countId = '#count24';
+        var counter = 3; //counter
+        var counter2 = 3; //counter again
+        var frameClassName = '#frame-zaker24';
+        var repeatId = '#repeat24';
+        var bnt = '#bnt24';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker26">
+                <p id="zakr26"></p>
+                <button type="button" class="bntMorning" id="bnt26">
+                    <span id="repeat26">تكرار : </span>
+                    <span id="count26"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'اللهُـم صَلِّ وَسَلِم وبَارِك على سيدِنَا مُحمَّد';
+        var thawab = 'من صلى عليَّ حين يصبح وحين يمسى ادركته شفاعتى يوم القيامة ';
+        var zakrId = '#zakr26';
+        var countId = '#count26';
+        var counter = 10; //counter
+        var counter2 = 10; //counter again
+        var frameClassName = '#frame-zaker26';
+        var repeatId = '#repeat26';
+        var bnt = '#bnt26';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+    
+    
+    
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker28">
+                <p id="zakr28"></p>
+                <button type="button" class="bntMorning" id="bnt28">
+                    <span id="repeat28"> 10 - </span>
+                    <span id="count28"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'سبحان الله وبحمده';
+        var thawab = 'قال رسول الله صلِّ الله عليه وسلم :  مَن قَالَ سُبحانَ اللَّه وبِحمدهِ فِي يَوم مائةَ مرَّةٍ حُطت خطاياهُ وإِن كانت مِثلَ زبدِ البَحرِ - رواه البخاري';
+        var zakrId = '#zakr28';
+        var countId = '#count28';
+        var counter = 10; //counter
+        var counter2 = 10; //counter again
+        var frameClassName = '#frame-zaker28';
+        var repeatId = '#repeat28';
+        var bnt = '#bnt28';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+    
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker25">
+                <p id="zakr25"></p>
+                <button type="button" class="bntMorning" id="bnt25">
+                    <span id="repeat25"> 10 - </span>
+                    <span id="count25"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'لَا إلَه إلا اللهُ وَحدهُ لَا شريكَ لهُ، لهُ المُلكُ ولهُ الحمدُ وهوَ علَى كُل شَيءِ قدِيرِ';
+        var thawab = 'من قالها فِي يَومٍ مِائةَ مَرةٍ كانَت لهُ عدلَ عَشرِ رقابٍ وكُتبَ لهُ مائَةُ حسنةٍ ومُحيَت عنهُ مائةُ سيئةٍ وكانت لهُ حرزًا مِن الشيطَانِ يومهُ ذَلِكَ حَتى يُمسِيَ، ولم يأتِ أحَد بأفضَلَ مِما جاءَ إِلا رَجُل عمِلَ أكثر مِنهُ .';
+        var zakrId = '#zakr25';
+        var countId = '#count25';
+        var counter = 10; //counter
+        var counter2 = 10; //counter again
+        var frameClassName = '#frame-zaker25';
+        var repeatId = '#repeat25';
+        var bnt = '#bnt25';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+    <!-- End --------------------------------------------------------  -->
+
+
+    <main class="mainZaker">
+        <section class="sectionZaker">
+
+            <div class="frameZakerMorning opacAct" id="frame-zaker27">
+                <p id="zakr27"></p>
+                <button type="button" class="bntMorning" id="bnt27">
+                    <span id="repeat27">تكرار : </span>
+                    <span id="count27"></span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        var zaker = 'اللهُـم أنتَ ربِّي لا إِلهَ إِلا أنتَ عليكَ توَكلتُ وأنتَ رَبُّ العرشِ العَظِيمِ مَا شَاءَ اللَّه كان وما لم يشَأ لم يكُن ، ولا حَولَ وَلا قوّةَ إِلا باللَّه العَليِّ العظيمِ ، أعلمُ أنَّ اللَّه على كُل شيءٍ قدِير ، وأَن اللَّه قد أَحاط بِكُل شيءٍ علمًا ، اللهُـم إِني أعُوذُ بك من شرِّ نفسِي ، ومن شرّ كُل دابةٍ أَنتَ آخِذ بناصيتهَا ، إِن ربّي على صِرَاطٍ مُستقيمٍ';
+        var thawab = 'دعاء ذو فضل كبير';
+        var zakrId = '#zakr27';
+        var countId = '#count27';
+        var counter = 1; //counter
+        var counter2 = 1; //counter again
+        var frameClassName = '#frame-zaker27';
+        var repeatId = '#repeat27';
+        var bnt = '#bnt27';
+        var animateName = "w3-animate-opacity";
+
+        morning(zaker, thawab, zakrId, countId, counter, counter2, frameClassName, repeatId, bnt, animateName);
+    </script>
+
+    <!-- End --------------------------------------------------------  -->
+
+    <br />
+
+
+</body>
+
+</html>
