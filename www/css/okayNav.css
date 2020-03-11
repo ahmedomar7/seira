@@ -39,7 +39,7 @@
 }
 
 .pinning-nav.pinned {
-    background-color: #663f73;
+    background-color: #98c807;
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
     box-shadow: 0 1px 3px rgba(0, 0, 0, .3)
@@ -52,7 +52,7 @@
 }
 
 .pinning-nav.pinning-top {
-    background-color: #663f73;
+    background-color: #98c807;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none
