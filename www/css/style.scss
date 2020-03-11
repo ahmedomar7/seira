@@ -23,7 +23,7 @@ $MainColor: StatusBar- Navbar- IndexBackground- SequenceNumbers - progresBarHead
             ProgressBarBackground - enoughTimeAzkar - accordionDua - AzkarButton.
 $lightBackground: Background Color of Seira - companios - Morning Azkar . **/
 
-$mainColor: #663f73;
+$mainColor: #7c1d4b;
 $lightBackground: #e6e6e6;
 
 $marningBtn:#2691d9;/*-2691d9*/
@@ -44,13 +44,8 @@ body {
     font-size: 16px;
 }
 
-.bodyColorMain1{
-    background-color:$lightBackground;
-   
-}
-.bodyColorMain{
-  background-color: $mainColor;
-}
+
+
 
 a:hover,
 a {
@@ -69,7 +64,7 @@ a {
     z-index: 99999;
 }
 .progress-container {
-    background-color: #7c1d4b;
+    background-color: $mainColor;
     width: 100%;
     height: 3px;
     float: right;
@@ -106,7 +101,7 @@ a {
   width: 100%
 }
 .barnd-name {
-    color: #7c1d4b;
+    color: $mainColor;
     margin-top: 15px;
     font-family: FFHekaya;
     font-size: 45px;
@@ -114,7 +109,7 @@ a {
 }
 
 .barnd-name2 {
-    color: #7c1d4b;
+    color: $mainColor;
     font-family: swissraNor;
     font-size: 16px;
     margin-top: -20px;
@@ -122,12 +117,12 @@ a {
 }
 
 .barnd-slogan {
-    color: $whiteColor;
+    color: $mainColor;
     font-family: swissraNor;
     font-size: 14px;
     margin-top: -10px;
     user-select: none;
-    text-shadow:  #3a2442 1px 1px;
+    text-shadow:  $whiteColor 1px 1px;
 }
 
 .iconeHome {

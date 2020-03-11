@@ -112,7 +112,7 @@ function init_zakr(zaker, thawab, zakrId, countId, counter, counter2, frameClass
         var animateVar = document.querySelector(zakrId).classList;
 
         var white = "#fff";
-        var dark = "#663f73";
+        var dark = "#835194";
         var black = "#000000";
 
         if (counter == 0) {
