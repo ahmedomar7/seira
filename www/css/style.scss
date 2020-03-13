@@ -103,7 +103,7 @@ a {
   width: 100%
 }
 .barnd-name {
-    color: $mainColor;
+    color: $whiteColor;
     margin-top: 15px;
     font-family: FFHekaya;
     font-size: 45px;
@@ -111,10 +111,11 @@ a {
 }
 
 .barnd-name2 {
-    color: $mainColor;
+    color: $whiteColor;
     font-family: swissraNor;
     font-size: 16px;
     margin-top: -20px;
+    padding-bottom: 20px;
     user-select: none;
 }
 
